@@ -1,20 +1,53 @@
+<!DOCTYPE html>
 <html>
     
-<headh>
+<head>
     <title>F1 page</title>
-</headh>
-<link rel="stylesheet" href="mystyle.css">
+    <link rel="stylesheet" href="mystyle.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    
+</head>
 
     <script>
         alert("this is from frontend javascript");
     </script>
-    <style>
-        body {
-            background: red;
-        }
-    </style>
-    <body>
-        Hello world
-        <h1>Mercedes in the lead!</h1>
-    </body>
+<body>
+    <script href=""https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" rel="stylesheet">
+    </script>
+
+    <div>
+        <img src="F1_logo.png" id="FormulaOneLogo">
+    </div>
+
+    <!--In this section I will use bootstrap to create the list of drivers (All classes are a part of Bootstrap)-->
+    <div class="container">
+        <div class="row">                <!--Designates this is the row of 12-->
+            <div class="col-6">          <!-- Col-6 assigns 6 gridspaces out of the alloted 12 per row-->
+                <h1>Lewis Hamilton</h1>
+                <h2>7 time world champion</h2>
+                <img src="Lewis.png" class="img-fluid"/>
+            </div>
+            <div class="col-6">
+                <table class="table">
+                    <tr>
+                        <td><a href="bio.html">Lewis Hamilton</a></td>
+                        <td>Mercedes</td>
+                    </tr>
+                    <tr>
+                        <td>George Russle</td>
+                        <td>Mercedes</td>
+
+                    </tr>
+                </table>
+
+            </div>
+        </div>
+
+    </div>
+    <!--End of driver bootstrap section-->
+
+    
+
+</body>
 </html>

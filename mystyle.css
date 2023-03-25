@@ -1,1 +1,18 @@
 h1{color:blue};
+body {
+    background: #e0e0e2;
+}
+#FormulaOneLogo{
+    max-width: 300px;
+    max-height: auto;
+    display: block;
+    margin: auto;
+}
+
+#DriverHeading{
+    font-size: 20px;
+    font-weight: bold;
+    color: teal;
+    text-align:left;
+}
+
