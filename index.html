@@ -5,25 +5,26 @@
     <title>F1 page</title>
     <link rel="stylesheet" href="mystyle.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-
     
 </head>
 
+
+<body>
     <script>
         alert("this is from frontend javascript");
     </script>
-<body>
+
     <script href=""https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" rel="stylesheet">
     </script>
 
     <div>
-        <img src="F1_logo.png" id="FormulaOneLogo">
+        <img src="Images/F1_logo.png" id="FormulaOneLogo" >
     </div>
 
     <!--In this section I will use bootstrap to create the list of drivers (All classes are a part of Bootstrap)-->
-    <div class="container">
-        <div class="row">                <!--Designates this is the row of 12-->
-            <div class="col-6">          <!-- Col-6 assigns 6 gridspaces out of the alloted 12 per row-->
+    <!--<div class="container">
+        <div class="row">                Designates this is the row of 12
+            <div class="col-12 col-lg-6">          Col-6 assigns 6 gridspaces out of the alloted 12 per row
                 <h1>Lewis Hamilton</h1>
                 <h2>7 time world champion</h2>
                 <img src="Lewis.png" class="img-fluid"/>
@@ -45,9 +46,76 @@
         </div>
 
     </div>
-    <!--End of driver bootstrap section-->
 
+
+    <--End of driver bootstrap section--> 
     
+    <!--Bootstrap section using the card option-->
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <div class="row">
+                    <div class="col-12 col-sm-6">
+                        <div class="card">
+                            <img src="Images/Mercedes.png" class="card-img-top" height="120">
+                            <div class="text-center">
+                                <div class="card-body">
+                                    <h2 class="card-title">Drivers</h2>
+                                    <p class="card-text">Lewis Hamilton, Geroge Russle</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-6">
+                        <div class="card">
+                            <img src="Images/redbull.png" class="card-img-top" height="120">
+                            <div class="text-center">
+                                <div class="card-body">
+                                    <h2 class="card-title">Drivers</h2>
+                                    <p class="card-text">Max Verstapen, Sergio Perez</p>
+                                </div>
+                            </div>
+                        </div>
 
+
+                    </div>
+                </div>
+            </div>
+        
+        
+            <div class="col">
+                <div class="row">
+                    <div class="col-12 col-sm-6">
+                        <div class="card">
+                            <img src="Images/Ferrari.png" class="card-img-top" height="120">
+                            <div class="text-center">
+                                <div class="card-body">
+                                    <h2 class="card-title">Drivers</h2>
+                                    <p class="card-text">Charles Leclerc, Carlos Sainz</p>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="col-12 col-sm-6">
+                        <div class="card">
+                            <img src="AstonMartin.png" class="card-img-top" height="120">
+                            <div class="text-center">
+                                <div class="card-body">
+                                    <h2 class="card-title">Drivers</h2>
+                                    <p class="card-text">
+                                        <a href="bio.html">Fernando Alonzo, </a>
+                                        <a href="bio.html">Lance Stroll</a>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--End of bootstrap card section-->
 </body>
 </html>
